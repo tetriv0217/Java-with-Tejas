@@ -1,8 +1,8 @@
 class TypeConversion {
     public static void main(String[] args) {
-        int a = 12;
+        // int a = 12;
         // byte b = a;//this will not convert
-        byte b = (byte)a;//this will convert example of type casting
+        // byte b = (byte)a;//this will convert example of type casting
 
         int bigger = 257;
         int bigger2 = -257;
