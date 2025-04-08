@@ -11,6 +11,7 @@ public class Demo {
         System.out.println(sb);
         sb.append(" Trivedi");
         System.out.println(sb);
+        // StringBuffer is Thread Safe, String Builder is not
 
 
 
