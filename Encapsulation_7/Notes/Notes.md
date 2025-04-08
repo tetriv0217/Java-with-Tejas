@@ -47,3 +47,15 @@ public class Person {
 
 ## this keyword
 - The `this` keyword is a reference to the current object in a method or constructor.
+
+
+## Constructors
+- A constructor is a special method that is called when an object is created. It is used to initialize the object's properties and allocate memory for the object.
+- A constructor has the same name as the class and does not have a return type.
+- A constructor can have parameters, which allows for different ways to create an object with different initial values.
+- A constructor can also call other constructors in the same class using the `this` keyword. This is known as constructor chaining.
+### Types of Constructors
+- There are two types of constructors in Java:
+    1. **Default constructor**: A constructor that does not take any parameters. It initializes the object's properties to default values.
+    2. **Parameterized constructor**: A constructor that takes parameters and initializes the object's properties with the provided values.
+- If no constructor is defined in a class, the Java compiler automatically provides a default constructor.
