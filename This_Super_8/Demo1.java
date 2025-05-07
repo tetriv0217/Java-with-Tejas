@@ -26,6 +26,7 @@ class B extends A{
     public B(int n){
         this();
         // super(n);//for first two output
+        // For first two ouput comment this() and uncomment super  
         //This was done to call the parameterized constructor
         // If there is no constructor then it will show error
         System.out.println("in B int");
@@ -34,7 +35,7 @@ class B extends A{
 public class Demo1 {
     public static void main(String[] args) {
         // Code 1
-        // B obj = new B());
+        // B obj = new B();
         
         //This calls the A constructor as well even though it was't called, because of super(),it only calls the default constructor
         
