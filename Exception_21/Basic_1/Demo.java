@@ -12,7 +12,7 @@ public class Demo {
         try {
             j = 18/i;
             array[4] = 10;
-            System.out.println(str.length());
+            // System.out.println(str.length());
         }
         catch (ArithmeticException e){
             System.out.println("Divide by zero error");
