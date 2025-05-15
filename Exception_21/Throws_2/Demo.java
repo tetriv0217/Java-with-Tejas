@@ -1,4 +1,4 @@
-package Exception_20.Throws_2;
+package Exception_21.Throws_2;
 
 class TejasException extends Exception{
     public TejasException(String  string){

@@ -1,4 +1,4 @@
-package Exception_20.Throws_3;
+package Exception_21.Throws_3;
 
 class A{ 
     public void show() throws ClassNotFoundException{ // Now the object that is using this method has to handle the error
