@@ -2,6 +2,7 @@ package Collections_24.Sorting_2;
 
 import java.util.*;
 
+//If you want your class to have a sorting function of itself then you can use Comparable
 class Students implements Comparable<Students>{
     int age;
     String name;
