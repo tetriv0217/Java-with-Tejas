@@ -62,3 +62,5 @@ public class Main {
 - Use `Thread.sleep()` and `Thread.join()` carefully to avoid deadlocks and performance issues.
 - Be cautious when sharing resources between threads to avoid data inconsistencies.
 - If extending the `Thread` class, ensure that the class is not final, as it cannot be subclassed and the `run()` method cannot be overridden.
+
+![alt text](image.png)
