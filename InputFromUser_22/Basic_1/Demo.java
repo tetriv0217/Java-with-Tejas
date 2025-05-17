@@ -1,9 +1,9 @@
 package InputFromUser_22.Basic_1;
 
-import java.io.BufferedReader;
+// import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.Reader;
+// import java.io.InputStreamReader;
+// import java.io.Reader;
 import java.util.Scanner;
 
 public class Demo {
