@@ -2,7 +2,7 @@ package StreamApi_25.Basic_1;
 
 import java.util.*;
 // import java.util.stream.Stream;
-import java.util.function.Predicate;
+// import java.util.function.Predicate;
 
 
 // Stream can be used only once. After that it will show errors
