@@ -2,6 +2,7 @@ package StreamApi_25.Basic_1;
 
 import java.util.*;
 // import java.util.stream.Stream;
+import java.util.function.Predicate;
 
 
 // Stream can be used only once. After that it will show errors
@@ -14,8 +15,21 @@ public class Demo {
         // Stream<Integer> s3 = s2.map(n->n*1);
         // int res = s3.reduce(0, (c,e) -> c+e);
         
+
+        // Behind the scene of filter function
+
+        // Predicate<Integer>p = new Predicate<Integer>(){
+        //     public boolean test(Integer n){
+        //         return n%2 == 0;
+        //     }
+        // };
+
+        // With lamda function
+        // Predicate<Integer>p = (n) -> n%2 == 0;
+            
+
         int res = nums.stream()
-        .filter(n -> n%2 == 1)
+        .filter((n) -> n%2 == 0)
         .reduce(0, (c,e)->c+e);
 
         System.out.println(res);
